@@ -1,0 +1,34 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Model cache (large, redownloadable)
+.cache/
+
+# Piper voices (large)
+voices/
+*.onnx
+*.onnx.json
+
+# TTS output
+*.wav
+*.mp3
+
+# Logs
+*.log
+run_log.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
